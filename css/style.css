@@ -136,3 +136,6 @@ section#dremSection {
   margin-top: 50px;
   border-radius: 5px;
 }
+p {
+  color: rgb(82, 82, 82);
+}
