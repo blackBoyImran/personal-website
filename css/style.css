@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.header {
+  background-image: url(../images/header-bg.png);
+  background-repeat: no-repeat;
+}
+.container {
+  width: 100%;
+}
+.nameSection {
+  float: left;
+  width: 31%;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+.profileSection {
+  width: 35%;
+  float: left;
+  margin-top: 0%;
+}
+
+.profileSection img {
+  width: 100%;
+  float: left;
+}
+section {
+  height: 500px;
+  margin-bottom: 77px;
+}
+#hello {
+  font-size: 35px;
+}
+#name {
+  color: #ec4c78;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+.hireMe {
+  background-image: linear-gradient(#ec5195, #ec4c77);
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.aboutMe {
+  margin-bottom: 40px;
+}
+.dremImgSection {
+  float: left;
+  width: 30%;
+  margin: 0;
+  margin-left: 10%;
+}
+.dremImgSection img {
+  width: 100%;
+}
+.dremNameSection {
+  float: left;
+  width: 35%;
+  margin: 0%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+#dremSection {
+  background-image: url(../images/biography-bg.png);
+  background-repeat: no-repeat;
+}
+
+section#dremSection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.latest_work {
+  width: 24%;
+  float: left;
+  margin: 2%;
+}
+.latest_work img {
+  width: 100%;
+}
+#work_1st {
+  margin-left: 10%;
+}
+#work_last {
+  margin-right: 10%;
+}
+#latest {
+  text-align: center;
+}
+#latest-work-section {
+  background-image: url(../images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 365px;
+}
+#footer {
+  text-align: center;
+  margin-top: 150px;
+  background-image: url(../images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#clientReveow {
+  margin-top: 50px;
+}
+#clientName {
+  margin-top: 50px;
+  font-size: 22px;
+}
+#founder {
+  font-size: 10px;
+}
+#summery {
+  margin-top: 150px;
+}
+#sortMessage {
+  font-size: 11px;
+}
+#message {
+  margin-top: 50px;
+  padding: 20px 100px;
+  background-image: linear-gradient(45deg, #ec5094, #ed4b71);
+  color: white;
+  width: 215px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+}
